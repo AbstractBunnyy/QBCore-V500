@@ -834,26 +834,13 @@ RegisterNetEvent('qb-ambulancejob:checkin', function()
                 TriggerServerEvent('hospital:server:SendDoctorAlert', Config.Locations['hospital'][i]['name'])
                 QBCore.Functions.Notify('Called a Doctor', 'primary')
             else
-                TriggerEvent('animations:client:EmoteCommandStart', { 'notepad' })
+                TriggerEvent('animations:client:EmoteCommandStart', { 'point' })
                 QBCore.Functions.Progressbar('hospital_checkin', Lang:t('progress.checking_in'), 2000, false, true, {
                     disableMovement = true,
                     disableCarMovement = true,
                     disableMouse = false,
                     disableCombat = true,
                 }, {
-                    animDict = 'missheistdockssetup1clipboard@base',
-                    anim = 'base',
-                    flags = 33,
-                }, {
-                    model = 'prop_notepad_01',
-                    bone = 18905,
-                    coords = { x = 0.1, y = 0.02, z = 0.05 },
-                    rotation = { x = 10.0, y = 0.0, z = 0.0 },
-                }, {
-                    model = 'prop_pencil_01',
-                    bone = 58866,
-                    coords = { x = 0.11, y = -0.02, z = 0.001 },
-                    rotation = { x = -120.0, y = 0.0, z = 0.0 },
                 }, function() -- Done
                     TriggerEvent('animations:client:EmoteCommandStart', { 'c' })
 
@@ -873,6 +860,15 @@ end)
 RegisterNetEvent('qb-ambulancejob:beds', function(hospitalIndex, bedId)
     if bedId then
         TriggerServerEvent('hospital:server:SendToBed', bedId, false, hospitalIndex)
+        hospitalLocation = hospitalIndex
+    else
+        QBCore.Functions.Notify(Lang:t('error.beds_taken'), 'error')
+    end
+end)
+
+RegisterNetEvent('qb-ambulancejob:beds2', function(hospitalIndex, bedId)
+    if bedId then
+        TriggerServerEvent('hospital:server:SendToBed2', bedId, false, hospitalIndex)
         hospitalLocation = hospitalIndex
     else
         QBCore.Functions.Notify(Lang:t('error.beds_taken'), 'error')
@@ -916,7 +912,7 @@ if Config.UseTarget then
                     options = {
                         {
                             type = 'client',
-                            event = 'qb-ambulancejob:beds',
+                            event = 'qb-ambulancejob:beds2',
                             icon = 'fas fa-bed',
                             label = 'Layin Bed',
                         }
