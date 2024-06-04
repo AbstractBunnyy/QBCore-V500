@@ -1,0 +1,35 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>[ymap]\exterior.ymap</Item>
+    <Item>[ymap]\lr_sc1_09_long_0.ymap</Item>
+    <Item>[ymap]\lr_sc1_09_strm_0.ymap</Item>
+    <Item>[ymap]\lr_sc1_occl_02.ymap</Item>
+    <Item>[ymap]\test_milo_.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>[ytyp]\gas.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>[ybn]\hi@sc1_09_0.ybn</Item>
+    <Item>[ybn]\hi@v_gasstation.ybn</Item>
+    <Item>[ybn]\sc1_09_0.ybn</Item>
+    <Item>[ybn]\v_gasstation.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>[ydr]\sc1_09_emissive.ydr</Item>
+    <Item>[ydr]\sc1_09_gas1_details.ydr</Item>
+    <Item>[ydr]\sc1_09_gasem.ydr</Item>
+    <Item>[ydr]\sc1_09_ground.ydr</Item>
+    <Item>[ydr]\sc1_09_ltdsign.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>

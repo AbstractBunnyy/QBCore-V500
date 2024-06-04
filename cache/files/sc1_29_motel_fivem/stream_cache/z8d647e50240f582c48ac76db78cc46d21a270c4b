@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="3000" />
+  <proxies>
+	<Item>sc1_29_motel_shell_milo_</Item>
+	<Item>sc1_29_shop_shell_milo_</Item>
+
+  </proxies>
+</SInteriorOrderData>

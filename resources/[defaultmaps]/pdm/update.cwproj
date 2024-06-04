@@ -1,0 +1,24 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>stream\cardealerpart1.ymap</Item>
+    <Item>stream\cardealerpart2.ymap</Item>
+    <Item>stream\pdm_ext.ymap</Item>
+    <Item>stream\hei_dt1_rd1_strm_1.ymap</Item>
+    <Item>stream\hei_dt1_22_strm_0.ymap</Item>
+    <Item>stream\hei_dt1_21_strm_3.ymap</Item>
+    <Item>stream\hei_dt1_rd1_long_0.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames />
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames />
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>

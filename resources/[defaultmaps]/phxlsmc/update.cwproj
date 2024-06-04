@@ -1,0 +1,71 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>stream\hei_dt1_06.ymap</Item>
+    <Item>stream\hei_dt1_06_long_0.ymap</Item>
+    <Item>stream\hei_dt1_06_strm_0.ymap</Item>
+    <Item>stream\hei_dt1_rd1_long_1.ymap</Item>
+    <Item>stream\phxlsmc_interior_milo_.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>stream\phxlsmc_interior.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>stream\hi@dt1_06_0.ybn</Item>
+    <Item>stream\phxlsmc_interior_col.ybn</Item>
+    <Item>stream\[builds]\dt1_06_0.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>stream\phxlsmc_interior_shell.ydr</Item>
+    <Item>stream\[props]\custom_lights.ydr</Item>
+    <Item>stream\[props]\custom_lights4.ydr</Item>
+    <Item>stream\[props]\ex_prop_exec_office_door01.ydr</Item>
+    <Item>stream\[props]\phxlsmc_board.ydr</Item>
+    <Item>stream\[props]\phxlsmc_chiefdoor.ydr</Item>
+    <Item>stream\[props]\phxlsmc_details1.ydr</Item>
+    <Item>stream\[props]\phxlsmc_details3.ydr</Item>
+    <Item>stream\[props]\phxlsmc_details10.ydr</Item>
+    <Item>stream\[props]\phxlsmc_doorframe.ydr</Item>
+    <Item>stream\[props]\phxlsmc_doorframe_double.ydr</Item>
+    <Item>stream\[props]\phxlsmc_doorglass.ydr</Item>
+    <Item>stream\[props]\phxlsmc_logo.ydr</Item>
+    <Item>stream\[props]\phxlsmc_lookoutdoor.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster1.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster2.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster3.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster4.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster5.ydr</Item>
+    <Item>stream\[props]\phxlsmc_poster6.ydr</Item>
+    <Item>stream\[props]\phxlsmc_receptiondesk.ydr</Item>
+    <Item>stream\[props]\phxlsmc_seating.ydr</Item>
+    <Item>stream\[props]\v_corp_officedesk2.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_autopsy_suite.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_classroom.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_infirmary.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_lookout_room.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_morgue.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_office_of_chief_doctor.ydr</Item>
+    <Item>stream\[nameplates]\phxlsmc_operating_room.ydr</Item>
+    <Item>stream\[builds]\dt1_06_b2_decb.ydr</Item>
+    <Item>stream\[builds]\dt1_06_b2_ns.ydr</Item>
+    <Item>stream\[builds]\dt1_06_build2_1.ydr</Item>
+    <Item>stream\[builds]\dt1_06_build3_1.ydr</Item>
+    <Item>stream\[builds]\dt1_06_g2_detail.ydr</Item>
+    <Item>stream\[builds]\v_2_cdb_mesh_06.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames>
+    <Item>stream\[builds]\dt1_06_slod_2_children.ydd</Item>
+    <Item>stream\[builds]\dt1_props_combo0711_slod_children.ydd</Item>
+  </YddFilenames>
+  <YftFilenames />
+  <YtdFilenames>
+    <Item>stream\phxlsmc_interior_textures.ytd</Item>
+    <Item>stream\[builds]\dt1_06_lod.ytd</Item>
+  </YtdFilenames>
+</CodeWalkerProject>

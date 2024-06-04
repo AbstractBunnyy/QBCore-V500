@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>dnx_chiliadtown_2</parent>
+      <child>dnx_chiliadtown_1</child>
+    </Item>
+    <Item>
+      <parent>dnx_chiliadtown_1</parent>
+      <child>dnx_chiliadtown</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>
