@@ -172,44 +172,37 @@ RegisterNUICallback('spawnplayer', function(data, cb)
     local insideMeta = PlayerData.metadata["inside"]
     if type == "current" then
         PreSpawnPlayer()
-        QBCore.Functions.GetPlayerData(function(pd)
+        QBCore.Functions.GetPlayerData(function(pos)
             ped = PlayerPedId()
-            SetEntityCoords(ped, pd.position.x, pd.position.y, pd.position.z)
-            SetEntityHeading(ped, pd.position.a)
+            -- print("Spawned last location")
+            SetEntityCoords(ped, pos.position.x, pos.position.y, pos.position.z)
+            SetEntityHeading(ped, pos.position.a)
+            TriggerEvent("jays-spawn-anim:doSpawnAnimationAndSpawnIn", pos.position)
             FreezeEntityPosition(ped, false)
         end)
-
-        if insideMeta.house ~= nil then
-            local houseId = insideMeta.house
-            TriggerEvent('qb-houses:client:LastLocationHouse', houseId)
-        elseif insideMeta.apartment.apartmentType ~= nil or insideMeta.apartment.apartmentId ~= nil then
-            local apartmentType = insideMeta.apartment.apartmentType
-            local apartmentId = insideMeta.apartment.apartmentId
-            TriggerEvent('qb-apartments:client:LastLocationHouse', apartmentType, apartmentId)
-        end
         TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
         TriggerEvent('QBCore:Client:OnPlayerLoaded')
-        PostSpawnPlayer()
+        if insideMeta.property_id ~= nil then
+            local property_id = insideMeta.property_id
+            TriggerServerEvent('ps-housing:server:enterProperty', tostring(property_id))
+        end
     elseif type == "house" then
         PreSpawnPlayer()
-        TriggerEvent('qb-houses:client:enterOwnedHouse', location)
         TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
         TriggerEvent('QBCore:Client:OnPlayerLoaded')
-        TriggerServerEvent('qb-houses:server:SetInsideMeta', 0, false)
-        TriggerServerEvent('qb-apartments:server:SetInsideMeta', 0, 0, false)
-        PostSpawnPlayer()
+        local property_id = data.spawnloc.property_id
+        TriggerServerEvent('ps-housing:server:enterProperty', tostring(property_id))
     elseif type == "normal" then
         local pos = QB.Spawns[location].coords
         PreSpawnPlayer()
         SetEntityCoords(ped, pos.x, pos.y, pos.z)
         TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
         TriggerEvent('QBCore:Client:OnPlayerLoaded')
-        TriggerServerEvent('qb-houses:server:SetInsideMeta', 0, false)
-        TriggerServerEvent('qb-apartments:server:SetInsideMeta', 0, 0, false)
-        Wait(500)
+        TriggerServerEvent('ps-housing:server:resetMetaData')
         SetEntityCoords(ped, pos.x, pos.y, pos.z)
         SetEntityHeading(ped, pos.w)
-        PostSpawnPlayer()
+        TriggerEvent("jays-spawn-anim:doSpawnAnimationAndSpawnIn", pos)
+        -- print("Spawned A")
     end
     cb('ok')
 end)

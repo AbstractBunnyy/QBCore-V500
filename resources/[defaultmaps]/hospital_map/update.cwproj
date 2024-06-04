@@ -1,0 +1,42 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>stream\pboxhospital.ymap</Item>
+    <Item>stream\rc12b_destroyed.ymap</Item>
+    <Item>stream\rc12b_hospitalinterior.ymap</Item>
+    <Item>stream\hei_dt1_06_strm_0.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>stream\v_int_40.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>stream\v_hospital.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>stream\prop_pharm_sign_01.ydr</Item>
+    <Item>stream\v_40_details2.ydr</Item>
+    <Item>stream\v_40_details3.ydr</Item>
+    <Item>stream\v_40_doorfr3.ydr</Item>
+    <Item>stream\v_40_hospbumpers2.ydr</Item>
+    <Item>stream\v_40_hospital.ydr</Item>
+    <Item>stream\v_40_hospseating1.ydr</Item>
+    <Item>stream\v_40_lights2.ydr</Item>
+    <Item>stream\v_40_lights3.ydr</Item>
+    <Item>stream\v_40_oldlights.ydr</Item>
+    <Item>stream\v_40_roomlights.ydr</Item>
+    <Item>stream\v_40_sidedoor.ydr</Item>
+    <Item>stream\v_40_sidedr.ydr</Item>
+    <Item>stream\v_40overlay1.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames>
+    <Item>stream\v_40_hospital_txd.ytd</Item>
+  </YtdFilenames>
+</CodeWalkerProject>
