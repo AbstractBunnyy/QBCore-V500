@@ -1,6 +1,6 @@
 Config = {}
 Config.RequireJob = true                       -- do you need a mech job to use parts?
-Config.FuelResource = 'LegacyFuel'             -- supports any that has a GetFuel() and SetFuel() export
+Config.FuelResource = 'qb-sna-fuel'             -- supports any that has a GetFuel() and SetFuel() export
 
 Config.PaintTime = 5                           -- how long it takes to paint a vehicle in seconds
 Config.ColorFavorites = false                  -- add your own colors to the favorites menu (see bottom of const.lua)

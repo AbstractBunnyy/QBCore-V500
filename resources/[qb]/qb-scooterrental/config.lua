@@ -8,4 +8,4 @@ Config.ScooterModel = "serv_electricscooter"
 Config.ScooterPrice = 50
 
 
-Config.FuelSystem = "qs-fuelstations"
+Config.FuelSystem = "qb-sna-fuel"

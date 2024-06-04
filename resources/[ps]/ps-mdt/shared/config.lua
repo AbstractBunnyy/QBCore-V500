@@ -21,7 +21,7 @@ Config.QBBankingUse = true
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
 Config.InventoryForWeaponsImages = "qb-inventory"
 
--- "qs-fuelstations", "lj-fuel", "ps-fuel"
+-- "qb-sna-fuels", "lj-fuel", "ps-fuel"
 Config.Fuel = "qb-sna-fuel"
 
 -- Google Docs Link

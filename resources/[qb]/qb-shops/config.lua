@@ -7,7 +7,7 @@ Config.TruckDeposit = 125
 Config.MaxDeliveries = 20
 Config.DeliveryPrice = 500
 Config.RewardItem = 'cryptostick'
-Config.Fuel = 'LegacyFuel'
+Config.Fuel = 'qb-sna-fuel'
 
 Config.DeliveryLocations = {
     ['main'] = { label = 'GO Postal', coords = vector4(69.0862, 127.6753, 79.2123, 156.7736) },
