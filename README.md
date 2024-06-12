@@ -81,7 +81,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 A big thank you to all the script creators whose work made this server possible. Here are some of the creators and their original scripts that we've used and modified:
 
-- [Creator Name 1](link-to-creator1-profile) - [Script Name 1](link-to-script1)
+- [BEBIK DEV](https://github.com/Bebicek) - [bd_loadingscreen](https://github.com/Bebicek/bd_loadingscreen)
 - [Creator Name 2](link-to-creator2-profile) - [Script Name 2](link-to-script2)
 - [Creator Name 3](link-to-creator3-profile) - [Script Name 3](link-to-script3)
 
