@@ -81,7 +81,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 A big thank you to all the script creators whose work made this server possible. Here are some of the creators and their original scripts that we've used and modified:
 
-- [BEBIK DEV](https://github.com/Bebicek) - [bd_loadingscreen](https://github.com/Bebicek/bd_loadingscreen) - [Bunnys Changes] - ( updated ui color, updated staff team text, updated logo, updated music)
+- [BEBIK DEV](https://github.com/Bebicek) - [bd_loadingscreen](https://github.com/Bebicek/bd_loadingscreen)
+  - Modifications by [Bunnys Changes]:
+    - Updated UI color
+    - Updated staff team text
+    - Updated logo
+    - Updated music
 - [DankestNuke](https://github.com/sheenthebest) - [GuideBook](https://github.com/sheenthebest/sh-guidebook)
 - [Creator Name 3](link-to-creator3-profile) - [Script Name 3](link-to-script3)
 
@@ -90,7 +95,3 @@ Additionally, thanks to the developers of the QBcore framework for providing a s
 If you have any questions or need further assistance, feel free to open an issue or contact us directly.
 
 Happy gaming!
-
-
-
-
