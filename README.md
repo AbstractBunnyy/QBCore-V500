@@ -1,7 +1,7 @@
-# QBCoreFramework_5F2FA4.base
- # [Your Server Name]
 
-Welcome to [Your Server Name], a lore-friendly server built on the QBcore framework using free scripts created by the community. This server aims to provide a rich and immersive experience for all players.
+ # [Pre Built Lore Friendly Qbcore V500]
+
+Welcome to [QBCore V500], a lore-friendly server built on the QBcore framework using free scripts created by the community. This server aims to provide a rich and immersive experience for all players.
 
 ## Table of Contents
 - [About](#about)
@@ -14,7 +14,7 @@ Welcome to [Your Server Name], a lore-friendly server built on the QBcore framew
 
 ## About
 
-[Your Server Name] is designed to be a free-to-play server that respects the lore and world-building of its base game. We have curated and reworked various free scripts from talented creators to ensure they fit seamlessly into the game environment. This server is built on the QBcore framework, known for its robust and modular design, making it perfect for creating a customized and scalable game server.
+is designed to be a free-to-play server that respects the lore and world-building of its base game. We have curated and reworked various free scripts from talented creators to ensure they fit seamlessly into the game environment. This server is built on the QBcore framework, known for its robust and modular design, making it perfect for creating a customized and scalable game server.
 
 ## Features
 
@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 A big thank you to all the script creators whose work made this server possible. Here are some of the creators and their original scripts that we've used and modified:
 
 - [BEBIK DEV](https://github.com/Bebicek) - [bd_loadingscreen](https://github.com/Bebicek/bd_loadingscreen)
-- [Creator Name 2](link-to-creator2-profile) - [Script Name 2](link-to-script2)
+- [DankestNuke](https://github.com/sheenthebest) - [GuideBook](https://github.com/sheenthebest/sh-guidebook)
 - [Creator Name 3](link-to-creator3-profile) - [Script Name 3](link-to-script3)
 
 Additionally, thanks to the developers of the QBcore framework for providing a solid foundation for building our server.
