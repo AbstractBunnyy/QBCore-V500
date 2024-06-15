@@ -12,6 +12,11 @@ Welcome to [QBCore V500], a lore-friendly server built on the QBcore framework u
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+## Main Contributor's 
+- AbstractBunny
+- Unknown/crumpetcode
+
+
 ## About
 
 is designed to be a free-to-play server that respects the lore and world-building of its base game. We have curated and reworked various free scripts from talented creators to ensure they fit seamlessly into the game environment. This server is built on the QBcore framework, known for its robust and modular design, making it perfect for creating a customized and scalable game server.
