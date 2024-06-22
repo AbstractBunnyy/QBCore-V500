@@ -93,7 +93,7 @@ A big thank you to all the script creators whose work made this server possible.
     - Updated logo
     - Updated music
 - [DankestNuke](https://github.com/sheenthebest) - [GuideBook](https://github.com/sheenthebest/sh-guidebook)
-- [iLLenium Studios](https://github.com/iLLeniumStudios) - [iLLenium-Appearance(https://github.com/iLLeniumStudios/illenium-appearance)
+- [iLLenium Studios](https://github.com/iLLeniumStudios)[iLLenium Appearance(https://github.com/iLLeniumStudios/illenium-appearance)
 
 Additionally, thanks to the developers of the QBcore framework for providing a solid foundation for building our server.
 
